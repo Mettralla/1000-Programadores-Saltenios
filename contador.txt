@@ -1,0 +1,2 @@
+Este es un texto de prueba
+y el programa debe contar la cantidad de palabras

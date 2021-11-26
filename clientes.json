@@ -1,0 +1,20 @@
+[
+    {
+        "Nombre": "Daniel",
+        "Apellido": "Tejerina",
+        "Edad": "28",
+        "Cantidad": "5000"
+    },
+    {
+        "Nombre": "Jose",
+        "Apellido": "Wayar",
+        "Edad": "24",
+        "Cantidad": "4200"
+    },
+    {
+        "Nombre": "Julian",
+        "Apellido": "Paz",
+        "Edad": "30",
+        "Cantidad": "2100"
+    }
+]

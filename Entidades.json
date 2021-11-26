@@ -1,0 +1,79 @@
+{
+        "Classes":[
+        
+            {
+                "Name" : "Actor",
+                "Extend" : "DomainEntity",
+                "Properties" : [
+                    {
+                        "Name" : "nombre",
+                        "Type" : "String",
+                        "Constraint" : ["@NotBlank"],
+                        "Display" : true
+                    },
+                    {
+                        "Name" : "apellido",
+                        "Type" : "String",
+                        "Constraint" : ["@NotBlank"],
+                        "Display" : true
+                    },
+                    {
+                        "Name" : "foto",
+                        "Type" : "String",
+                        "Constraint" : ["@URL"],
+                        "Display" : false
+                    },
+                    {
+                        "Name" : "email",
+                        "Type" : "String",
+                        "Constraint" : ["@NotBlank", "@URL"],
+                        "Display" : true
+                    },
+                    {
+                        "Name" : "telefono",
+                        "Type" : "String",
+                        "Constraint" : [],
+                        "Display" : true
+                    },
+                    {
+                        "Name" : "direccion",
+                        "Type" : "String",
+                        "Constraint" : [],
+                        "Display" : true
+                    }
+                ]
+            },
+            {
+                "Name" : "mensaje",
+                "Extend" : "DomainEntity",
+                "Properties" : [
+                    {
+                        "Name" : "fechaenvio",
+                        "Type" : "Date",
+                        "Constraint" : ["@Past"],
+                        "Display" : true
+                    },{
+                        "Name" : "asunto",
+                        "Type" : "String",
+                        "Constraint" : ["@NotBlank"],
+                        "Display" : true
+                    },{
+                        "Name" : "body",
+                        "Type" : "String",
+                        "Constraint" : ["@NotBlank"],
+                        "Display" : true
+                    },{
+                        "Name" : "email",
+                        "Type" : "String",
+                        "Constraint" : ["@NotBlank", "@URL"],
+                        "Display" : true
+                    },{
+                        "Name" : "topic",
+                        "Type" : "String",
+                        "Constraint" : ["@NotBlank"],
+                        "Display" : true
+                    }
+                ]
+            }
+        ]
+}
