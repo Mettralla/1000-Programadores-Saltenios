@@ -19,4 +19,4 @@ def leer_como_diccionario(nombre):
             print(dict(linea))
 
 
-leer_como_diccionario('personas.csv')
+leer_como_diccionario('TPN8/archivos/personas.csv')

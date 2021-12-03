@@ -14,7 +14,7 @@ soup = leer_y_obtener_canciones('https://los40.com/los40/2021/02/18/musica/16134
 
 canciones = soup.find('div', {'id': 'cuerpo_noticia'}).find_all('h2')
 
-with open('canciones.txt', 'w') as archivo:
+with open('TPN8/archivos/canciones.txt', 'w') as archivo:
     texto = ''
     for cancion in canciones:
         texto += cancion.get_text() + '\n'

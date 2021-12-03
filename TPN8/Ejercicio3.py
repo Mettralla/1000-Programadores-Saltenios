@@ -1,9 +1,9 @@
-# Ejercicio 3: Escribir un programa que acceda a un archivo de texto de google drive y muestre por pantalla el número de palabras que contiene.
+# Ejercicio 3: Escribir un programa que acceda a un archivo de texto y muestre por pantalla el número de palabras que contiene.
 
 from io import open
 from os import read
 
-with open('contador.txt', 'r') as archivo:
+with open('TPN8/archivos/contador.txt', 'r') as archivo:
     lineas = archivo.readlines()
     print(lineas)
     contador = 0

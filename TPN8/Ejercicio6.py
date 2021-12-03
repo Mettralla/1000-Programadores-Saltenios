@@ -11,5 +11,5 @@ diccionarios = [
     {'Nombre': 'Julian', 'Apellido': 'Paz', 'Edad': '30', 'Cantidad': '2100'}
 ]
 
-with open('clientes.json', 'w') as archivo:
+with open('TPN8/archivos/clientes.json', 'w') as archivo:
     json.dump(diccionarios, archivo, indent=4)

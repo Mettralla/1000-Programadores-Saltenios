@@ -13,19 +13,19 @@ lista_personas = [
 ]
 
 def crear_csv():
-    with open('lista_personas.csv', 'w', newline='\n') as csvfile:
+    with open('TPN8/archivos/lista_personas.csv', 'w', newline='\n') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         for persona in lista_personas:
             writer.writerow(persona)
 
 def leer_csv():
-    with open('lista_personas.csv', newline='\n') as csvfile:
+    with open('TPN8/archivos/lista_personas.csv', newline='\n') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         for apellido, nombre, dni in reader:
             print(apellido, nombre, dni)
 
 def obtener_personas_csv():
-    with open('lista_personas.csv', newline='\n') as csvfile:
+    with open('TPN8/archivos/lista_personas.csv', newline='\n') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         personas = []
         for persona in reader:
@@ -37,12 +37,5 @@ def ordenar(lista):
     for persona in lista:
         print(persona)
 
-crear_csv()
+
 leer_csv()
-personas = obtener_personas_csv()
-ordenar(personas)
-
-
-
-        
-

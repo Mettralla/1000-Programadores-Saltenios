@@ -13,6 +13,6 @@
 
 import json
 
-with open('Entidades.json', 'r') as archivo:
+with open('TPN8/archivos/Entidades.json', 'r') as archivo:
     datos = json.load(archivo)
     print(json.dumps(datos, indent=4))
