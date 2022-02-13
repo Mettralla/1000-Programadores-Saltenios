@@ -45,5 +45,8 @@ Mis respuestas a los ejercicios practicos realizados en el marco del curso "1000
  - SQLite.
  - Gestion de bases de datos.
 
+### X. Ejercicio Final Integrador
+ - Un ejercicio de dos partes que busca englobar lo aprendido durante la cursada.
+
 
 
