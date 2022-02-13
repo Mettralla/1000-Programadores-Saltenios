@@ -1,4 +1,4 @@
-# 1000-Programadores-Saltenos
+# 1000 Programadores Saltenios
 Mis respuestas a los ejercicios practicos realizados en el marco del curso "1000 Programadores Salteños - Introduccion a la Programacion en Python" impartido por la Universidad Nacional de Salta.
 
 ![Banner](https://github.com/Mettralla/1000-Programadores-Saltenios/blob/main/readmebanner.png) 
@@ -7,7 +7,7 @@ Mis respuestas a los ejercicios practicos realizados en el marco del curso "1000
 
 ### 3. Trabajo Practico N°3 - Algoritmos Basicos
  - Variables.
- - Numeros(Integer y Floats).
+ - Numeros (Integer y Floats).
  - Cadena de Texto.
  - Lista, Tuplas y Diccionarios.
  - Indices y Slicing.
